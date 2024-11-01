@@ -6,26 +6,37 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>803</width>
     <height>542</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>11</pointsize>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;
-background-color: rgb(209, 197, 255);</string>
+   <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="boton_aceptar">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>260</y>
+      <x>290</x>
+      <y>320</y>
       <width>75</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(138, 138, 138);</string>
     </property>
     <property name="text">
      <string>Aceptar</string>
@@ -34,111 +45,169 @@ background-color: rgb(209, 197, 255);</string>
    <widget class="QPushButton" name="boton_cancelar">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>260</y>
+      <x>400</x>
+      <y>320</y>
       <width>75</width>
       <height>24</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Cancelar</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>90</y>
-      <width>161</width>
-      <height>81</height>
-     </rect>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 28pt &quot;Segoe UI&quot;;</string>
+     <string notr="true">background-color: rgb(138, 138, 138);</string>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../../images.jpg</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+     <string>Cancelar</string>
     </property>
    </widget>
    <widget class="QLabel" name="usuario">
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>190</y>
+      <y>240</y>
       <width>71</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);
-selection-background-color: rgb(170, 255, 127);</string>
+     <string notr="true">background-color: rgb(147, 147, 147);</string>
     </property>
     <property name="text">
-     <string>Usuario</string>
+     <string>Usuario:</string>
     </property>
    </widget>
    <widget class="QLabel" name="contrasena">
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>230</y>
+      <y>280</y>
       <width>91</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);</string>
+     <string notr="true">background-color: rgb(147, 147, 147);</string>
     </property>
     <property name="text">
-     <string>Contraseña</string>
+     <string>Contraseña:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txtUsuario">
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>190</y>
-      <width>113</width>
+      <y>240</y>
+      <width>161</width>
       <height>22</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(207, 207, 207);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Ingrese su Usuario</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txtClave">
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>230</y>
-      <width>113</width>
+      <y>280</y>
+      <width>181</width>
       <height>22</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(207, 207, 207);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Ingrese su contraseña</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>340</x>
       <y>30</y>
       <width>181</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 28pt &quot;Segoe UI&quot;;</string>
+     <string notr="true">font: 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>VUELOS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>181</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagenes/images.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_error">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>370</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>mensaje</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>200</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Inicio de sesión</string>
     </property>
    </widget>
   </widget>
@@ -147,13 +216,15 @@ selection-background-color: rgb(170, 255, 127);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>803</width>
      <height>33</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="imagenes/imagenes.qrc"/>
+ </resources>
  <connections/>
 </ui>

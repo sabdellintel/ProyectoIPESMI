@@ -21,8 +21,8 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
    <widget class="QPushButton" name="boton_agregar_reserva">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>250</y>
+      <x>210</x>
+      <y>360</y>
       <width>75</width>
       <height>31</height>
      </rect>
@@ -38,7 +38,7 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>250</y>
+      <y>360</y>
       <width>75</width>
       <height>31</height>
      </rect>
@@ -54,7 +54,7 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>250</y>
+      <y>360</y>
       <width>75</width>
       <height>31</height>
      </rect>
@@ -82,17 +82,17 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>260</x>
       <y>140</y>
-      <width>161</width>
-      <height>81</height>
+      <width>251</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../../c90af173a77afb05e1a38fd2b899ffd8.jpg</pixmap>
+     <pixmap>imagenes/area-viajes.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
